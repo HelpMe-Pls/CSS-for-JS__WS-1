@@ -13,17 +13,20 @@ body {
 strong {
   color: hsl(160 100% 30%)
 }
-
-header > .max-width-wrapper {
-  padding-block-end: 48px;
-  border-bottom: 8px solid hsl(0 0% 60%);
+header {
+  border-bottom: 8px solid hsl(0deg 0% 60%);
 }
-.intro-chunk {
+header > .max-width-wrapper {
   max-width: 800px;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  margin-block-start: 48px;
   padding-inline-start: 24px;
+  padding-block-end: 48px;
+}
+.intro-chunk {
+  max-width: 415px;
+  padding-block-start: 96px;
+  padding-block-end: 64px;
 }
 
 main > .max-width-wrapper {
